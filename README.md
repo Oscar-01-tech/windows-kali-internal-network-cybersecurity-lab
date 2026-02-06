@@ -130,6 +130,9 @@ A later scan revealed:
 3389/tcp OPEN
 
 Service detected: ms-wbt-server (Remote Desktop Protocol)
+### Nmap Scan Showing Port 3389 Open (RDP)
+![Nmap 3389 open](screenshot/<img width="1918" height="1079" alt="Screenshot 2026-01-31 095949" src="https://github.com/user-attachments/assets/ba63595d-43fd-481f-a92f-4e2a93de0c1a" />
+.png)
 
 This confirmed:
 
