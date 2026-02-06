@@ -86,6 +86,9 @@ UDP 3389 listening
 
 
 **Kali Linux Configuration**
+### Kali Static IP Configuration (192.168.10.11)
+![Kali static IP](screenshots/<img width="1918" height="1075" alt="Screenshot 2026-01-30 165833" src="https://github.com/user-attachments/assets/930bb735-e650-44b1-82d1-43a1b34d9fd5" />
+)
 
 Network Verification
 ip addr confirmed:
