@@ -57,6 +57,9 @@ Windows 11 attempted to force a Microsoft account during setup. A local account 
 
 Network Verification
 ipconfig confirmed the assigned static IP and interface configuration.
+###  Windows Static IP Configuration (192.168.10.10)
+![Windows static IP](screenshots/<img width="1030" height="766" alt="Screenshot 2026-01-30 162516" src="https://github.com/user-attachments/assets/f51c0146-6a1a-46c4-b07d-cddc14797783" />
+.PNG)
 
 Enabling Remote Desktop
 Remote Desktop enabled
