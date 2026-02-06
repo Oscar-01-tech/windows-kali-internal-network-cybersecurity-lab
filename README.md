@@ -4,6 +4,7 @@ Hands-on cybersecurity lab using Windows 11 Pro and Kali Lnux to configure inter
 This project demonstrates a virtualized cybersecurity lab environment using Windows 11 Pro as the target system and Kali Linux as the attacker system. The goal was to configure internal networking between both machines, enable a remote service on Windows, and perform Nmap scanning from Kali to enumerate open ports and verify connectivity.
 
 **Project Objectives**
+
 Build two virtual machines in VirtualBox
 
 Configure an isolated internal network for secure communication
@@ -21,6 +22,7 @@ Perform Nmap scanning from Kali to identify open ports
 Troubleshoot filtered ports and firewall rules
 
 **Virtual Machine Setup**
+
 Windows 11 VM
 Static IP: 192.168.10.10
 
@@ -46,6 +48,7 @@ Adapter type: Intel PRO/1000 MT Desktop
 Cable connected: Enabled
 
 **Windows 11 Configuration**
+
 Local Account Creation
 Windows 11 attempted to force a Microsoft account during setup. A local account was created using offline setup methods to ensure the VM remained isolated and usable for internal‑only testing.
 
@@ -76,6 +79,7 @@ TCP 3389 listening
 UDP 3389 listening
 
 **Kali Linux Configuration**
+
 Network Verification
 ip addr confirmed:
 
@@ -93,6 +97,7 @@ Windows → Kali: 0% packet loss
 This verified that both VMs were communicating correctly on the internal network.
 
 **Nmap Scanning**
+
 Initial Scan
 Code
 nmap -sV 192.168.10.10
@@ -118,6 +123,7 @@ RDP was active
 The internal network was functioning as intended
 
 **Troubleshooting Summary**
+
 Windows initially showed “media disconnected” due to adapter configuration
 
 Kali required manual IP assignment using ip addr add
@@ -131,6 +137,7 @@ Verified open port 3389 using both Nmap and netstat
 Confirmed bidirectional connectivity with ping tests
 
 **Final Results**
+
 Both VMs successfully communicated over an isolated internal network
 
 Windows RDP service was exposed and detected by Kali
@@ -139,7 +146,8 @@ Nmap enumeration successfully identified open ports
 
 The lab environment is fully functional and reproducible
 
-**Resume‑Ready Project Description**
+**Project Summary**
+
 Cybersecurity Virtual Lab Project — Windows 11 & Kali Linux
 
 Built a virtualized cybersecurity lab using VirtualBox with Windows 11 as the target and Kali Linux as the attacker
@@ -150,4 +158,4 @@ Enabled and verified Windows Remote Desktop Protocol (RDP) using firewall rules 
 
 Performed Nmap scanning and service enumeration from Kali to identify open ports
 
-Documented troubleshooting steps including network configuration, filtered ports, and Windows account setup
+Documented troubleshooting steps including network configuration, filtered ports, and Windows account setup.
