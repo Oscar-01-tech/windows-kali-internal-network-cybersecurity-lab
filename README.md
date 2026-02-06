@@ -41,6 +41,9 @@ Code
 sudo ip addr add 192.168.10.11/24 dev eth0
 sudo ip link set eth0 up
 VirtualBox Network Configuration
+### VirtualBox Internal Network Settings
+![VirtualBox network settings](screenshots/<img width="1919" height="1079" alt="Screenshot 2026-01-30 171717" src="https://github.com/user-attachments/assets/ade1abde-faf6-4386-85df-f976e6d33bfb" />
+.png)
 Adapter: Internal Network
 
 Network name: labnet
