@@ -101,6 +101,9 @@ lo loopback
 eth0 with 192.168.10.11/24
 
 Connectivity Testing
+### Ping Test: Kali -> Windows (Successful)
+![Ping success](screenshots/<img width="1919" height="1079" alt="Screenshot 2026-01-30 174429" src="https://github.com/user-attachments/assets/2590412f-53a6-4fd7-9872-551bde7dba1a" />
+.png)
 Ping tests:
 
 Kali → Windows: 0% packet loss
